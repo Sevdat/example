@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('static/plugins/images/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('storage/images/favicon.png') }}">
     <title>Ample Admin Template - The Ultimate Multipurpose admin template</title>
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('static/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -56,10 +56,10 @@
                     <!-- Logo -->
                     <a class="logo" href="/">
                         <!-- Logo icon image, you can use font-icon also --><b>
-                        <!--This is dark logo icon--><img src="{{ asset('static/plugins/images/admin-logo.png') }}" alt="home" class="dark-logo" /><!--This is light logo icon--><img src="{{ asset('static/plugins/images/admin-logo-dark.png') }}" alt="home" class="light-logo" />
+                        <!--This is dark logo icon--><img src="{{ asset('storage/images/admin-logo.png') }}" alt="home" class="dark-logo" /><!--This is light logo icon--><img src="{{ asset('storage/images/admin-logo-dark.png') }}" alt="home" class="light-logo" />
                      </b>
                         <!-- Logo text image you can use text also --><span class="hidden-xs">
-                        <!--This is dark logo text--><img src="{{ asset('static/plugins/images/admin-text.png') }}" alt="home" class="dark-logo" /><!--This is light logo text--><img src="{{ asset('static/plugins/images/admin-text-dark.png') }}" alt="home" class="light-logo" />
+                        <!--This is dark logo text--><img src="{{ asset('storage/images/admin-text.png') }}" alt="home" class="dark-logo" /><!--This is light logo text--><img src="{{ asset('storage/images/admin-text-dark.png') }}" alt="home" class="light-logo" />
                      </span> </a>
                 </div>
                 <!-- /Logo -->
@@ -69,7 +69,7 @@
                             <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a> </form>
                     </li>
                     <li>
-                        <a class="profile-pic" href="#"> <img src="{{ asset('static/plugins/images/users/varun.jpg') }}" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Steave</b></a>
+                        <a class="profile-pic" href="#"> <img src="{{ asset('storage/images/users/varun.jpg') }}" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Steave</b></a>
                     </li>
                 </ul>
             </div>
@@ -287,7 +287,7 @@
                             <h3 class="box-title">Recent Comments</h3>
                             <div class="comment-center p-t-10">
                                 <div class="comment-body">
-                                    <div class="user-img"> <img src="{{ asset('static/plugins/images/users/pawandeep.jpg') }}" alt="user" class="img-circle">
+                                    <div class="user-img"> <img src="{{ asset('storage/images/users/pawandeep.jpg') }}" alt="user" class="img-circle">
                                     </div>
                                     <div class="mail-contnet">
                                         <h5>Pavan kumar</h5><span class="time">10:20 AM   20  may 2016</span>
@@ -295,7 +295,7 @@
                                     </div>
                                 </div>
                                 <div class="comment-body">
-                                    <div class="user-img"> <img src="{{ asset('static/plugins/images/users/sonu.jpg') }}" alt="user" class="img-circle">
+                                    <div class="user-img"> <img src="{{ asset('storage/images/users/sonu.jpg') }}" alt="user" class="img-circle">
                                     </div>
                                     <div class="mail-contnet">
                                         <h5>Sonu Nigam</h5><span class="time">10:20 AM   20  may 2016</span>
@@ -303,7 +303,7 @@
                                     </div>
                                 </div>
                                 <div class="comment-body b-none">
-                                    <div class="user-img"> <img src="{{ asset('static/plugins/images/users/arijit.jpg') }}" alt="user" class="img-circle">
+                                    <div class="user-img"> <img src="{{ asset('storage/images/users/arijit.jpg') }}" alt="user" class="img-circle">
                                     </div>
                                     <div class="mail-contnet">
                                         <h5>Arijit singh</h5><span class="time">10:20 AM   20  may 2016</span>
@@ -327,49 +327,49 @@
                                                     <button class="btn btn-success btn-circle btn-lg" type="button"><i class="fa fa-phone"></i></button>
                                                     <button class="btn btn-info btn-circle btn-lg" type="button"><i class="fa fa-comments-o"></i></button>
                                                 </div>
-                                                <a href="javascript:void(0)"><img src="{{ asset('static/plugins/images/users/varun.jpg') }}" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
+                                                <a href="javascript:void(0)"><img src="{{ asset('storage/images/users/varun.jpg') }}" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
                                             </li>
                                             <li>
                                                 <div class="call-chat">
                                                     <button class="btn btn-success btn-circle btn-lg" type="button"><i class="fa fa-phone"></i></button>
                                                     <button class="btn btn-info btn-circle btn-lg" type="button"><i class="fa fa-comments-o"></i></button>
                                                 </div>
-                                                <a href="javascript:void(0)"><img src="{{ asset('static/plugins/images/users/genu.jpg') }}" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
+                                                <a href="javascript:void(0)"><img src="{{ asset('storage/images/users/genu.jpg') }}" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
                                             </li>
                                             <li>
                                                 <div class="call-chat">
                                                     <button class="btn btn-success btn-circle btn-lg" type="button"><i class="fa fa-phone"></i></button>
                                                     <button class="btn btn-info btn-circle btn-lg" type="button"><i class="fa fa-comments-o"></i></button>
                                                 </div>
-                                                <a href="javascript:void(0)"><img src="{{ asset('static/plugins/images/users/ritesh.jpg') }}" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
+                                                <a href="javascript:void(0)"><img src="{{ asset('storage/images/users/ritesh.jpg') }}" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
                                             </li>
                                             <li>
                                                 <div class="call-chat">
                                                     <button class="btn btn-success btn-circle btn-lg" type="button"><i class="fa fa-phone"></i></button>
                                                     <button class="btn btn-info btn-circle btn-lg" type="button"><i class="fa fa-comments-o"></i></button>
                                                 </div>
-                                                <a href="javascript:void(0)"><img src="{{ asset('static/plugins/images/users/arijit.jpg') }}" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
+                                                <a href="javascript:void(0)"><img src="{{ asset('storage/images/users/arijit.jpg') }}" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
                                             </li>
                                             <li>
                                                 <div class="call-chat">
                                                     <button class="btn btn-success btn-circle btn-lg" type="button"><i class="fa fa-phone"></i></button>
                                                     <button class="btn btn-info btn-circle btn-lg" type="button"><i class="fa fa-comments-o"></i></button>
                                                 </div>
-                                                <a href="javascript:void(0)"><img src="{{ asset('static/plugins/images/users/govinda.jpg') }}" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
+                                                <a href="javascript:void(0)"><img src="{{ asset('storage/images/users/govinda.jpg') }}" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
                                             </li>
                                             <li>
                                                 <div class="call-chat">
                                                     <button class="btn btn-success btn-circle btn-lg" type="button"><i class="fa fa-phone"></i></button>
                                                     <button class="btn btn-info btn-circle btn-lg" type="button"><i class="fa fa-comments-o"></i></button>
                                                 </div>
-                                                <a href="javascript:void(0)"><img src="{{ asset('static/plugins/images/users/hritik.jpg') }}" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
+                                                <a href="javascript:void(0)"><img src="{{ asset('storage/images/users/hritik.jpg') }}" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
                                             </li>
                                             <li>
                                                 <div class="call-chat">
                                                     <button class="btn btn-success btn-circle btn-lg" type="button"><i class="fa fa-phone"></i></button>
                                                     <button class="btn btn-info btn-circle btn-lg" type="button"><i class="fa fa-comments-o"></i></button>
                                                 </div>
-                                                <a href="javascript:void(0)"><img src="{{ asset('static/plugins/images/users/varun.jpg') }}" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
+                                                <a href="javascript:void(0)"><img src="{{ asset('storage/images/users/varun.jpg') }}" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
                                             </li>
                                         </ul>
                                     </div>

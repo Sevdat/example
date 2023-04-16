@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('static/plugins/images/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('storage/images/favicon.png') }}">
     <title>Ample Admin Template - The Ultimate Multipurpose admin template</title>
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('static/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -49,10 +49,10 @@
                     <!-- Logo -->
                     <a class="logo" href="/">
                         <!-- Logo icon image, you can use font-icon also --><b>
-                        <!--This is dark logo icon--><img src="{{ asset('static/plugins/images/admin-logo.png') }}" alt="home" class="dark-logo" /><!--This is light logo icon--><img src="{{ asset('static/plugins/images/admin-logo-dark.png') }}" alt="home" class="light-logo" />
+                        <!--This is dark logo icon--><img src="{{ asset('storage/images/admin-logo.png') }}" alt="home" class="dark-logo" /><!--This is light logo icon--><img src="{{ asset('storage/images/admin-logo-dark.png') }}" alt="home" class="light-logo" />
                      </b>
                         <!-- Logo text image you can use text also --><span class="hidden-xs">
-                        <!--This is dark logo text--><img src="{{ asset('static/plugins/images/admin-text.png') }}" alt="home" class="dark-logo" /><!--This is light logo text--><img src="{{ asset('static/plugins/images/admin-text-dark.png') }}" alt="home" class="light-logo" />
+                        <!--This is dark logo text--><img src="{{ asset('storage/images/admin-text.png') }}" alt="home" class="dark-logo" /><!--This is light logo text--><img src="{{ asset('storage/images/admin-text-dark.png') }}" alt="home" class="light-logo" />
                      </span> </a>
                 </div>
                 <!-- /Logo -->
@@ -62,7 +62,7 @@
                             <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a> </form>
                     </li>
                     <li>
-                        <a class="profile-pic" href="#"> <img src="{{ asset('static/plugins/images/users/varun.jpg') }}" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Steave</b></a>
+                        <a class="profile-pic" href="#"> <img src="{{ asset('storage/images/users/varun.jpg') }}" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Steave</b></a>
                     </li>
                 </ul>
             </div>
@@ -131,10 +131,10 @@
                 <div class="row">
                     <div class="col-md-4 col-xs-12">
                         <div class="white-box">
-                            <div class="user-bg"> <img width="100%" alt="user" src="{{ asset('static/plugins/images/large/img1.jpg') }}">
+                            <div class="user-bg"> <img width="100%" alt="user" src="{{ asset('storage/images/large/img1.jpg') }}">
                                 <div class="overlay-box">
                                     <div class="user-content">
-                                        <a href="javascript:void(0)"><img src="{{ asset('static/plugins/images/users/genu.jpg') }}" class="thumb-lg img-circle" alt="img"></a>
+                                        <a href="javascript:void(0)"><img src="{{ asset('storage/images/users/genu.jpg') }}" class="thumb-lg img-circle" alt="img"></a>
                                         <h4 class="text-white">User Name</h4>
                                         <h5 class="text-white">info@myadmin.com</h5> </div>
                                 </div>

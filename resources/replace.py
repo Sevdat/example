@@ -16,6 +16,7 @@ for file in files:
     endings = [".png",".jpg",".css",".js",".less"]
     for end in endings:
         replace_text_in_html_file(file, end +"\"", end + '\') }'+'}'+"\"")
+        replace_text_in_html_file(file, "'static/plugins/images", "'storage/images")
     starts = ["bootstrap","css","plugins","js","less"]
     for st in starts:
         replace_text_in_html_file(file, "\"" + st, "\"" + "{"+"{ asset('static/" +st)
